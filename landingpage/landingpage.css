@@ -178,6 +178,7 @@ body{
     padding-bottom: 7rem;
 }
 .fifthsection{
+    margin-top: 5rem;
     background: #FFFFFF;
     padding-bottom: 3rem;
 }
@@ -225,7 +226,7 @@ body{
     position: absolute;
     right: 0px;
     top: 117rem;
-    z-index: -1 ;
+    z-index: 1 ;
 }
 /* hidefoodimages in small devices */
 @media(max-width:700px){
@@ -387,7 +388,7 @@ body{
     bottom: 10pt;
 }
 .subscribe-section{
-    background: #333333;
+    background: #F58633;
     color: #FFFFFF;
     padding: 5rem 2rem;
 }
@@ -421,7 +422,7 @@ body{
     padding-right: 1.7rem;
     padding-left: 1.7rem;
     margin-left: 1rem;
-    background: #F58633;
+    background: #333333;
     font-size: 16px;
     line-height: 15px;
     color: #FFFFFF;
@@ -429,4 +430,39 @@ body{
 .officelogo{
     width: 360px;
     height: 48px;
+}
+.signupbtn{
+    color: #FFFFFF;
+    border: none;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    background: #F58633;
+    border-radius: 2px;
+    position: relative;
+    bottom: 5px;
+}
+.signupbtn:focus{
+    outline: none;
+}
+.footerwrapper{
+    background: #333333;
+    color: #FFFFFF;
+    padding-top: 8rem;
+    text-align: center;
+}
+.officelogo1{
+    padding-bottom: 2rem;
+}
+.footertext{
+    text-align: center;
+    font-weight: 200;
+    background: #333333;
+    font-size: 14px;
+    line-height: 30px;
+    /* identical to box height, or 214% */
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    padding-bottom: 2rem;
 }
