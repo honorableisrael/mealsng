@@ -34,7 +34,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding-top: 60px;
-    padding-left: 188px;
+    padding-left: 150px;
     padding-right: 140px;
 }
 .dfirst{
@@ -112,7 +112,7 @@ body{
     color: #333333;
 }
 .bannertext{
-    margin-left: 180px;
+    margin-left: 142px;
     margin-top: 140px;
     font-size: 60px;
 }
@@ -449,7 +449,7 @@ body{
 .footerwrapper{
     background: #333333;
     color: #FFFFFF;
-    padding-top: 8rem;
+    padding-top: 7rem;
     text-align: center;
 }
 .officelogo1{
@@ -468,4 +468,12 @@ body{
 }
 .h11{
     padding-bottom: 3rem;
+}
+
+
+.dsecond {
+    height: 1005px;
+}
+.dthird{
+    height: 134px;
 }

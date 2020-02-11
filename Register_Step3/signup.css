@@ -1,0 +1,225 @@
+/* #E6EBF4; */
+.firstsectionlogin {
+    background: #E6EBF4;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+.h11{
+    padding-top: 6rem;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 34px;
+    /* or 142% */
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #333333;
+}
+.hh11{
+    padding-top: 2rem;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 34px;
+    /* or 142% */
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #333333; 
+}
+.sign3 {
+    padding-top: 1rem;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.01em;
+    color: #333333;
+    text-align: center;
+    /* margin-left: 29%; */
+    margin: auto;
+}
+.signss{
+    padding-top: 1rem;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.01em;
+    color: #333333;
+    text-align: center;
+}
+.shiftcenter{
+    justify-content: center;
+}
+.sign4 {
+    padding-top: 4rem;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.01em;
+    color: #333333;
+    text-align: center;
+    /* margin-left: 29%; */
+    margin: auto;
+}
+.hh1{
+    padding-top: 6rem;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #333333;    
+}
+.h12{
+    padding-top: 6rem;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.01em;
+    color: #333333;
+    text-align: center;
+    /* margin-left: 29%;     */
+    margin: auto;
+}
+.h122{
+    padding: 20px;
+    margin: auto;
+}
+.h123{
+    padding-top: 2rem;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.01em;
+    color: #333333;
+    text-align: center;
+    /* margin-left: 29%;     */
+    margin: auto;
+}
+.h1111{
+    padding-top: .2rem;
+    padding-left: 1rem;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 34px;
+    letter-spacing: 0.01em;
+    color: #333333;
+    text-align: left;
+    /* margin-left: 29%;     */
+    margin: auto;
+}
+.signin1{
+    background: #F58633;
+    border-radius: 5px;
+    color: #ffffff;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 19px;
+    border: none;
+    padding: 1rem 5rem;
+}
+.signin2{
+    border-radius: 5px;
+    color: #ffffff;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 19px;
+    border: none;
+    padding: 1rem 5rem;
+    background: #C4C4C4;
+}
+.signin2:focus{
+    outline: none;
+}
+.signin1:focus{
+    outline: none;
+}
+.fb11{
+    padding-right: .4rem;
+}
+.offsetmiddle{
+    margin: auto;
+}
+.boldtext{
+    font-weight: 600;
+}
+.planitem1{
+    font-size: 30px;
+    line-height: 30px;
+    /* identical to box height, or 75% */
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #F58633;
+}
+.planwrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.h1233{
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 34px;
+    /* or 142% */
+    text-align: center;
+    margin: auto;
+    background: #ffffff;
+    margin-top: 2rem;
+    letter-spacing: 0.01em;
+    box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+.textbtm{
+    font-size: 14px;
+    line-height: 34px;
+    padding-bottom: 0px;
+    /* identical to box height, or 243% */
+    text-align: left;
+    letter-spacing: 0.01em;
+    color: #57565C;
+}
+.agreement {
+    font-size: 14px;
+    padding-top: 1rem;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.01em;
+    color: #57565C;
+}
+
+.formcheckbox{
+    position: absolute;
+    left: -1rem;
+}
+.securedwrapper{
+    background: #0B5EDB;
+    justify-content: space-between;
+    padding: 4px;
+}
+.mastercard{
+    width: 38.64px;
+    height: 30px;
+}
+.visa{
+    width: 73.91px;
+    height: 30px;
+}
+.verve{
+    width: 86.33px;
+    height: 30px;
+}
+.secpaywrapper{
+    margin-top: 1rem;
+    font-size: 9px;
+    font-weight: 200;
+    letter-spacing: 0.01em;
+    background: #FFFFFF;
+    border: 1px solid #0B5EDB;
+    box-sizing: border-box;
+    border-radius: 2px;
+    position: relative;
+    top: .3rem;
+    text-align: center;
+}
