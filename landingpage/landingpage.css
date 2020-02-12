@@ -477,3 +477,94 @@ body{
 .dthird{
     height: 134px;
 }
+.modalsize{
+    max-width: 51%;
+}
+.modalheader{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #000000;
+}
+.extrapadn{
+    padding-top: 27px;
+    margin-bottom: 30px;
+}
+.closemodal{
+    background: #F58633;
+    border-radius: 5px;
+    color: #fff;
+    margin-right: 1rem;
+}
+.modal-footer{
+    border-top: none;
+}
+.selectoneitem{
+    margin-top: 1.5rem;
+    font-size: 12px;
+    line-height: 11px;
+    letter-spacing: 0.01em;
+}
+.selectoneitem:focus{
+    outline: none;
+    box-shadow: none;
+}
+.selectoneitem1:focus{
+    outline: none;
+    box-shadow: none;
+}
+.selectoneitem1{
+    margin-top: 2rem;
+    font-size: 12px;
+    line-height: 11px;
+    letter-spacing: 0.01em;
+}
+.wrap111{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .3rem;
+}
+.m111{
+    background: #FF9801;
+    border-radius: 1px;
+    color: #fff;
+    margin: none;
+    font-weight: normal;
+    font-size: 10px;
+    padding-right: 3rem;
+    padding-left: .2rem;
+}
+.m112{
+    width: 52px;
+    border: 1px solid #F58633;
+    height: 42px;
+}
+.m113{
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: right;
+}
+hr {
+    margin-top: .1rem;
+    margin-bottom: 0.3rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+.sendmealplan{
+    background: #F58633;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    padding:5px 12px;
+    line-height: 17px;
+    text-align: center;
+}
+.closerequest{
+    cursor: pointer;
+}
