@@ -47,11 +47,22 @@ body{
 .secondpart1{
     padding-right: 2rem;
 }
+.secondsectionbody{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 200;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #333333;
+}
 .firstsection{
     background-image: url('../assets/Banner.svg');
     background-repeat: no-repeat;
     /* height: 836px; */
     background-position-x: center;
+}
+.subscribe-wrapper{
+    margin-left: 90px;
 }
 .secondsectionheader{
     text-align: center;
@@ -79,6 +90,9 @@ body{
     border-radius: 10px;
     padding-top: 2rem;
 }
+.thirdsectioncc{
+    text-align: left;
+}
 
 .secondsectionheader1 {
     text-align: left;
@@ -101,14 +115,6 @@ body{
     line-height: 30px;
     /* or 125% */
     letter-spacing: 0.01em;
-    color: #333333;
-}
-.secondsectionbody{
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: 200;
-    text-align: center;
-    letter-spacing: 0.05em;
     color: #333333;
 }
 .bannertext{
@@ -182,6 +188,7 @@ body{
     background: #FFFFFF;
     padding-bottom: 3rem;
 }
+
 .thirdsectionheader{
     font-size: 25px;
     line-height: 40px;
@@ -194,7 +201,6 @@ body{
 }
 .thirdsection2{
     padding-top: 7rem;
-    text-align: left;
     padding-left: 4rem;
     margin-left: 180px;
 }
@@ -204,12 +210,27 @@ body{
     margin-left: 73%;
     /* padding-bottom: 2rem; */
 }
+.thirdsectioncx{
+    text-align: right;
+}
 .thirdsection4{
     padding-top: 3rem;
     padding-bottom: 2rem;
 }
 .thirdsectionheader{
     padding-bottom: .5rem;
+    text-align: right;
+}
+.thirdsectionheader1{
+    padding-bottom: .5rem;
+    text-align: left;
+}
+.thirdsectionheader1{
+    font-size: 25px;
+    line-height: 40px;
+    text-align: left;
+    letter-spacing: 0.05em;
+    color: #333333;
 }
 .foodimage{
     position: absolute;
@@ -226,8 +247,9 @@ body{
     position: absolute;
     right: 0px;
     top: 117rem;
-    z-index: 1 ;
+    z-index: 0 ;
 }
+
 /* hidefoodimages in small devices */
 @media(max-width:700px){
     .description{
@@ -235,6 +257,30 @@ body{
     }
     .description{
         left: 0%;
+    }
+    .thirdsectionheader{
+        text-align: center;
+    }
+    .thirdsectioncx{
+        text-align: center;
+    }
+    .thirdsectioncx{
+        text-align: center;
+    }
+    .thirdsectioncc{
+        text-align: center;
+    }
+    .secondsectionheader1first{
+        height: 50px;
+    }
+    .menusection{
+        margin: auto;
+    }
+    .subscribe-wrapper {
+        margin-left: 3px;
+    }
+    .secondsectionsubody{
+        margin-bottom: 3rem;
     }
 }
 @media(max-width:1168px){
@@ -252,15 +298,32 @@ body{
     .thirdsection3{
         margin-left: 50%;
     }
-    .thirdsection2{
+    .thirdsection2 {
         padding-left: 0%;
-        margin-left: 0px;
+        margin-left: 45px;
+    }
+    .thirdsection4{
+        margin-left: 45px;
+        padding-left: 0px;
+    }
+}
+@media(max-width:1300px){
+    .foodimage2{
+        width: 44%;
+        top: 130rem;
     }
 }
 @media(max-width:908px){
     .foodimage{
         display: none;
     }
+    .thirdsection3{
+        margin-left: auto;
+    }
+    .bannertext{
+        margin: auto;
+    }
+
     .foodimage1{
         position: absolute;
         display: none;
@@ -273,6 +336,15 @@ body{
         width: 10%;
         top: 117rem;
     }   
+}
+@media(max-width:779px){
+    .navbar-custom{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .bannertext{
+        padding-top: 7rem;
+    }
 }
 .fourthsection{
     margin-top: 175px;
@@ -400,9 +472,7 @@ body{
     letter-spacing: 0.01em;
     color: #FFFFFF;
 }
-.subscribe-wrapper{
-    margin-left: 90px;
-}
+
 .subscribe-header{
     font-size: 25px;
     line-height: 40px;
@@ -526,6 +596,23 @@ body{
     justify-content: space-between;
     margin-bottom: .3rem;
 }
+.i11{
+    width: 52px;
+    height: 42px;
+}
+.fone{
+    color: white;
+}
+.fone:active{
+    color: white;
+}
+.fone:hover{
+    text-decoration: none;
+    color: white;
+}
+.j11{
+    justify-content: space-around;
+}
 .m111{
     background: #FF9801;
     border-radius: 1px;
@@ -541,11 +628,15 @@ body{
     border: 1px solid #F58633;
     height: 42px;
 }
+.u11{
+    margin-bottom: 3rem;
+}
 .m113{
     font-weight: normal;
     font-size: 10px;
     line-height: 10px;
     text-align: right;
+    padding-bottom: .5rem;
 }
 hr {
     margin-top: .1rem;
@@ -567,4 +658,10 @@ hr {
 }
 .closerequest{
     cursor: pointer;
+}
+
+.activeSelection{
+    border: 1px solid #F58633;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 30px #FF9801;
 }

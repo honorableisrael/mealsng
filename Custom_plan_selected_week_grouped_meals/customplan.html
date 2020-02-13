@@ -58,18 +58,14 @@
                     Meals being Offered
                 </div>
             </div>
-            <div class="col-md-2 P0 mrgn">
-                <div class="secondcustomplan ">
-                     <span class="hidetext">Your Orders</span>
-                </div>
-            </div>
         </div>
     </div>
     <div class="container-fluid firstheadercp1">
-        <div class="row">
-            <div class="col-md-10 P0 l0 pr22">
-                <div class="flexthisdiv">
-                    <div class="fooditemwrapper">
+        <div class="row selectplanrow"  id="selectedMeal1" onclick="addActiveClassToSelectedElement('selectedMeal1')">
+            <h5 class="plan1">Plan 1</h5>
+            <div class="col-md-12 shift11">
+                <div class="flexthisdiv ">
+                    <div class="fooditemwrapper" >
                         <img src="../assets/riceandstew.png" alt="food"/>
                         <div class="foodname">
                             White rice and stew
@@ -99,37 +95,16 @@
                             Jollof rice with eggs & beef.
                         </div>
                     </div>
-                    <div class="fooditemwrapper">
-                        <img src="../assets/Jollof rice & chicken.png" alt="food"/>
-                        <div class="foodname">
-                            Jollof rice & chicken
-                        </div>
-                    </div>
-                    <div class="fooditemwrapper">
-                        <img src="../assets/UgwuOkro Soup & Eba.png" alt="food"/>
-                        <div class="foodname">
-                            Ugwu/Okro Soup & Eba
-                        </div>
-                    </div>
-                    <div class="fooditemwrapper">
-                        <img src="../assets/Boiled yam & beans pottage.png" alt="food"/>
-                        <div class="foodname">
-                            Boiled yam & beans pottage
-                        </div>
-                    </div>
-                    <div class="fooditemwrapper">
-                        <img src="../assets/ogbono soup and poundo yam.png" alt="food"/>
-                        <div class="foodname">
-                            ogbono soup and poundo yam
-                        </div>
-                    </div>
-                    <div class="fooditemwrapper">
-                        <img src="../assets/Stir fry and eggs and fish.png" alt="food"/>
-                        <div class="foodname">
-                            Stir fry and eggs and fish
-                        </div>
-                    </div>
-                    <div class="fooditemwrapper">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid firstheadercp1">
+        <div class="row selectplanrow" id="selectedMeal2" onclick="addActiveClassToSelectedElement('selectedMeal2')">
+            <h5 class="plan1">Plan 2</h5>
+            <div class="col-md-12 shift11">
+                <div class="flexthisdiv">
+                    <div class="fooditemwrapper" >
                         <img src="../assets/Vegatable palm oil rice.png" alt="food"/>
                         <div class="foodname">
                             Vegatable palm oil rice
@@ -141,7 +116,7 @@
                             Ofe Nsala & pounded yam
                         </div>
                     </div>
-                    <div class="fooditemwrapper">
+                    <div class="fooditemwrapper" >
                         <img src="../assets/Spaghetti Jollof chicken shred with vegetables.png" alt="food"/>
                         <div class="foodname">
                             Spaghetti Jollof chicken shred with vegetables
@@ -159,6 +134,15 @@
                             Noodles with vegetables and beef
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid firstheadercp1">
+        <div class="row selectplanrow"  id="selectedMeal3" onclick="addActiveClassToSelectedElement('selectedMeal3')">
+            <h5 class="plan1">Plan 3</h5>
+            <div class="col-md-12 shift11">
+                <div class="flexthisdiv ">
                     <div class="fooditemwrapper">
                         <img src="../assets/Beans with corn.png" alt="food"/>
                         <div class="foodname">
@@ -177,13 +161,13 @@
                             Burger with French fries and chicken
                         </div>
                     </div>
-                    <div class="fooditemwrapper">
+                    <div class="fooditemwrapper" >
                         <img src="../assets/Grilled irish potatoes with BBQ chickenfish.png" alt="food"/>
                         <div class="foodname">
                             Grilled irish potatoes with BBQ chicken/fish
                         </div>
                     </div>
-                    <div class="fooditemwrapper">
+                    <div class="fooditemwrapper" >
                         <img src="../assets/Couscous and vegetable mackrel sause..png" alt="food"/>
                         <div class="foodname">
                             Couscous and vegetable mackrel sause.
@@ -191,22 +175,61 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-2">
-                <div class="addpad">
-                    <div class="sidetext-cp">
-                        Your weekly lunchbox is empty.<br/><br/> <div>Start your lunch box menu right now!</div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
+    <!-- modal starts here -->
+    <div class="container">
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog modalsize">      
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="../assets/White Rice and Stew lg.png" alt="food"/>
+                        </div>
+                        <div class="col-md-7 extrapadn">
+                            <h5 class="modalheader">White Rice and Stew </h5>
+                            <select class="form-control selectoneitem1">
+                                <option class="form-control">
+                                    Select Protien (chicken,beef,fish or boilded egg)
+                                </option>
+                            </select>
+                            <select class="form-control selectoneitem">
+                                <option class="form-control">
+                                    With or Without Drink ?
+                                </option>
+                                <option class="form-control">
+                                    With Drink
+                                </option>
+                                <option class="form-control">
+                                    Without Drink
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default closemodal col-md-4" data-dismiss="modal">Add to Lunch Box</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- modalclass ends here -->
           <!-- footer starts here -->
           <footer class="footerwrapper11">
             <div class="footerwrapper">
                 <img src="../assets/logo 1.svg" class="officelogo1" alt="officelogo" />
             </div>
             <div class="footertext">
-                Meals.ng | meals.ng head office lekki phase 1 Victoria island Lagos Nigeria | <a class="fone" href="tel:+2349028934548"> (+234) 902 893 4548 </a>,<a class="fone" href="tel:+2347056583824"> (+234) 705 658 3824</a>
+                Meals.ng | meals.ng head office lekki phase 1 Victoria island Lagos Nigeria | (+234) 902 893 4548, (+234) 705 658 3824
             </div>
             <div class="footertext">
                 <img src="../assets/twitter.svg" class="fb11" alt="fb"/>  
@@ -229,6 +252,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <!-- Popper JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ <!-- custom js -->
+ <script src="../javascript/main.js"></script>
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>
