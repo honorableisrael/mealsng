@@ -1,3 +1,28 @@
+
+@font-face {
+    font-family: GothamPro;
+    src: url(../fonts/GothamPro-Bold.eot);
+    src: url(../fonts/GothamPro-Bold.woff2) format("woff2"),url(../fonts/GothamPro-Bold.woff) format("woff"),url(../fonts/GothamPro-Bold.ttf) format("truetype"),url(../fonts/GothamPro-Bold.svg#GothamPro-Bold) format("svg"),url(../fonts/GothamPro-Bold.eot?#iefix) format("embedded-opentype");
+    font-weight: 600;
+    font-style: normal
+  }
+
+  @font-face {
+    font-family: GothamPro;
+    src: url(../fonts/GothamPro.eot);
+    src: url(../fonts/GothamPro.woff2) format("woff2"),url(../fonts/GothamPro.woff) format("woff"),url(../fonts/GothamPro.ttf) format("truetype"),url(../fonts/GothamPro.svg#GothamPro) format("svg"),url(../fonts/GothamPro.eot?#iefix) format("embedded-opentype");
+    font-weight: 300;
+    font-style: normal
+  }
+
+  @font-face {
+    font-family: GothamPro;
+    src: url(../fonts/GothamPro-Light.eot);
+    src: url(../fonts/GothamPro-Light.woff2) format("woff2"),url(../fonts/GothamPro-Light.woff) format("woff"),url(../fonts/GothamPro-Light.ttf) format("truetype"),url(../fonts/GothamPro-Light.svg#GothamPro) format("svg"),url(../fonts/GothamPro-Light.eot?#iefix) format("embedded-opentype");
+    font-weight: 200;
+    font-style: normal
+  }
+
 /* #E6EBF4; */
 .firstsectionlogin {
     background: #E6EBF4;
@@ -257,11 +282,13 @@
 }
 .firstcustomplan{
     font-style: normal;
+    font-family: 'GothamPro';
     font-weight: bold;
     font-size: 20px;
 }
 .secondcustomplan{
     background: #F58633;
+    font-family: 'GothamPro';
     box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.2);
     border-radius: 2px;
     font-size: 18px;
@@ -283,6 +310,7 @@
     border-radius: 2px;
     margin-bottom: 0.3rem;
     cursor: pointer;
+    max-width: 172px;
 }
 .P0{
     padding-right: 0px;
@@ -294,13 +322,14 @@
     padding-left: 0px;
 }
 .foodname{
-    max-height: 43px;
+    max-height: 61px;
     padding: 7px 5px;
     font-weight: 300;
+    font-family: 'GothamPro';
     max-width: 172px;
     line-height: 1;
     width: 172px;
-    height: 43px;
+    height: 54px;
 }
 .flexthisdiv{
     display: flex;

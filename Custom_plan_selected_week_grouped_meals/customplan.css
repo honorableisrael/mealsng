@@ -1,3 +1,28 @@
+
+@font-face {
+    font-family: GothamPro;
+    src: url(../fonts/GothamPro-Bold.eot);
+    src: url(../fonts/GothamPro-Bold.woff2) format("woff2"),url(../fonts/GothamPro-Bold.woff) format("woff"),url(../fonts/GothamPro-Bold.ttf) format("truetype"),url(../fonts/GothamPro-Bold.svg#GothamPro-Bold) format("svg"),url(../fonts/GothamPro-Bold.eot?#iefix) format("embedded-opentype");
+    font-weight: 600;
+    font-style: normal
+  }
+
+  @font-face {
+    font-family: GothamPro;
+    src: url(../fonts/GothamPro.eot);
+    src: url(../fonts/GothamPro.woff2) format("woff2"),url(../fonts/GothamPro.woff) format("woff"),url(../fonts/GothamPro.ttf) format("truetype"),url(../fonts/GothamPro.svg#GothamPro) format("svg"),url(../fonts/GothamPro.eot?#iefix) format("embedded-opentype");
+    font-weight: 300;
+    font-style: normal
+  }
+
+  @font-face {
+    font-family: GothamPro;
+    src: url(../fonts/GothamPro-Light.eot);
+    src: url(../fonts/GothamPro-Light.woff2) format("woff2"),url(../fonts/GothamPro-Light.woff) format("woff"),url(../fonts/GothamPro-Light.ttf) format("truetype"),url(../fonts/GothamPro-Light.svg#GothamPro) format("svg"),url(../fonts/GothamPro-Light.eot?#iefix) format("embedded-opentype");
+    font-weight: 200;
+    font-style: normal
+  }
+
 /* #E6EBF4; */
 .firstsectionlogin {
     background: #E6EBF4;
@@ -7,6 +32,7 @@
 .h11{
     padding-top: 6rem;
     font-weight: 300;
+    font-family: 'GothamPro';
     font-size: 24px;
     line-height: 34px;
     /* or 142% */
@@ -17,6 +43,7 @@
 .hh11{
     padding-top: 2rem;
     font-weight: 300;
+    font-family: 'GothamPro';
     font-size: 24px;
     line-height: 34px;
     /* or 142% */
@@ -27,6 +54,7 @@
 .sign3 {
     padding-top: 1rem;
     font-weight: 300;
+    font-family: 'GothamPro';
     font-size: 24px;
     line-height: 34px;
     letter-spacing: 0.01em;
@@ -38,6 +66,7 @@
 .signss{
     padding-top: 1rem;
     font-weight: 300;
+    font-family: 'GothamPro';
     font-size: 24px;
     line-height: 34px;
     letter-spacing: 0.01em;
@@ -50,6 +79,7 @@
 .sign4 {
     padding-top: 4rem;
     font-weight: 300;
+    font-family: 'GothamPro';
     font-size: 24px;
     line-height: 34px;
     letter-spacing: 0.01em;
@@ -61,6 +91,7 @@
 .hh1{
     padding-top: 6rem;
     font-weight: 300;
+    font-family: 'GothamPro';
     font-size: 24px;
     line-height: 34px;
     text-align: center;
@@ -70,6 +101,7 @@
 .h12{
     padding-top: 6rem;
     font-weight: 300;
+    font-family: 'GothamPro';
     font-size: 24px;
     line-height: 34px;
     letter-spacing: 0.01em;
@@ -85,6 +117,7 @@
 .h123{
     padding-top: 2rem;
     font-weight: 300;
+    font-family: 'GothamPro';
     font-size: 24px;
     line-height: 34px;
     letter-spacing: 0.01em;
@@ -97,6 +130,7 @@
     padding-top: .2rem;
     padding-left: 1rem;
     font-weight: 300;
+    font-family: 'GothamPro';
     font-size: 15px;
     line-height: 34px;
     letter-spacing: 0.01em;
@@ -158,6 +192,7 @@
     padding-right: 1rem;
     padding-bottom: 2rem;
     font-weight: 300;
+    font-family: 'GothamPro';
     font-size: 24px;
     line-height: 34px;
     /* or 142% */
@@ -258,6 +293,7 @@
 .firstcustomplan{
     font-style: normal;
     font-weight: bold;
+    font-family: 'GothamPro';
     font-size: 20px;
 }
 .secondcustomplan{
@@ -267,6 +303,7 @@
     font-size: 18px;
     padding: 1rem 1rem;
     font-weight: 300;
+    font-family: 'GothamPro';
     line-height: 17px;
     letter-spacing: 0.01em;
     color: #FFFFFF;
@@ -283,6 +320,7 @@
     border-radius: 2px;
     margin-bottom: 0.3rem;
     cursor: pointer;
+    max-width: 172px;
 }
 .activeSelection{
     border: 1px solid #F58633;
@@ -299,13 +337,14 @@
     padding-left: 0px;
 }
 .foodname{
-    max-height: 43px;
+    max-height: 61px;
     padding: 7px 5px;
     font-weight: 300;
+    font-family: 'GothamPro';
     max-width: 172px;
     line-height: 1;
     width: 172px;
-    height: 43px;
+    height: 54px;
 }
 .flexthisdiv{
     display: flex;
@@ -345,6 +384,7 @@
 }
 .plan1{
     background: #F58633;
+    font-family: 'GothamPro';
     padding-right: 10rem;
     padding-left: 1rem;
     padding-top: .5rem;
