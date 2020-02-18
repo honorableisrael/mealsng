@@ -151,6 +151,7 @@
 .planwrapper{
     display: flex;
     justify-content: space-between;
+    font-weight: 600;
 }
 .h1233{
     padding-top: 2rem;
@@ -224,7 +225,6 @@
     text-align: center;
 }
 .returnToSelection{
-    font-family: Gotham;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;

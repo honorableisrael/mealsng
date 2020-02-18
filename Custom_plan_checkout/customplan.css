@@ -115,8 +115,18 @@
     letter-spacing: 0.01em;
     color: #333333;
     text-align: center;
+    font-family: 'GothamPro';
     /* margin-left: 29%;     */
     margin: auto;
+}
+.h123max{
+    padding-top: 2rem;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.01em;
+    color: #333333;
+    font-family: 'GothamPro';
 }
 .h1111{
     padding-top: .2rem;
@@ -138,7 +148,7 @@
     font-size: 18px;
     line-height: 19px;
     border: none;
-    padding: 1rem 5rem;
+    padding: 1rem 2rem;
 }
 .signin2{
     border-radius: 5px;
@@ -190,6 +200,48 @@
     margin: auto;
     background: #ffffff;
     margin-top: 2rem;
+    letter-spacing: 0.01em;
+    box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+.h1233{
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 34px;
+    /* or 142% */
+    text-align: center;
+    margin: auto;
+    background: #ffffff;
+    margin-top: 2rem;
+    letter-spacing: 0.01em;
+    box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+.texttop{
+    font-size: 14px;
+    line-height: 34px;
+    /* identical to box height, or 243% */
+    text-align: left;
+    letter-spacing: 0.01em;
+    color: #57565C;
+    margin-bottom: .5rem;
+}
+.hee3{
+    padding-top: 2rem;
+    padding-left: .5rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 34px;
+    margin-left: 1rem;
+    text-align: center;
+    background: #ffffff;
+    font-family: 'GothamPro';
     letter-spacing: 0.01em;
     box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.05);
     border-radius: 5px;
@@ -266,24 +318,25 @@
 }
 .firstheadercp{
     padding: 3rem 10rem;
-    font-family: 'GothamPro';
-    line-height: 34px;
-    /* identical to box height, or 142% */
-    letter-spacing: 0.01em;
-    color: #333333;
-}
-.firstheadercp1{
-    padding: 2rem 10rem;
     font-family: Gotham;
     line-height: 34px;
     /* identical to box height, or 142% */
     letter-spacing: 0.01em;
     color: #333333;
 }
+.firstheadercp1{
+    padding: 1rem 11.5rem;
+    font-family: Gotham;
+    line-height: 34px;
+    /* identical to box height, or 142% */
+    letter-spacing: 0.01em;
+    color: #333333;
+}
+
 .firstcustomplan{
     font-style: normal;
-    font-weight: bold;
     font-family: 'GothamPro';
+    font-weight: bold;
     font-size: 20px;
 }
 .secondcustomplan{
@@ -298,6 +351,27 @@
     letter-spacing: 0.01em;
     color: #FFFFFF;
 }
+.secondcustomplannn {
+    font-family: 'GothamPro';
+    border-radius: 2px;
+    padding: 1rem 0rem 0rem;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.01em;
+    color: #333333;
+}
+
+.second112{
+    font-family: 'GothamPro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 34px;
+    /* identical to box height, or 142% */
+    letter-spacing: 0.01em;
+    color: #333333;
+}
 .hidetext{
     opacity: 1;
 }
@@ -309,6 +383,22 @@
     box-shadow: 0px 4px 30px #C4C4C4;   
     border-radius: 2px;
     margin-bottom: 0.3rem;
+    cursor: pointer;
+    max-width: 172px;
+}
+.firsthead111 {
+    padding: 4rem 10rem 0rem 11.5rem;
+    font-family: Gotham;
+    line-height: 34px;
+    letter-spacing: 0.01em;
+    color: #333333;
+}
+.firsthead112{
+    padding: .4rem 10rem .5rem 11.5rem;
+    font-family: Gotham;
+    line-height: 34px;
+    letter-spacing: 0.01em;
+    color: #333333;
 }
 .P0{
     padding-right: 0px;
@@ -361,6 +451,21 @@
     position: relative;
     left: 9px;
 }
-.nb111{
-    font-family:'GothamPro'
+.mrgn1{
+    position: relative;
+    left: -3px;
+    padding-left: 0px;
+}
+.shiftbottom1{
+    padding-bottom: 4rem;
+}
+.mealinput{
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.posi111{
+    position: relative;
+    bottom: 1rem;
 }

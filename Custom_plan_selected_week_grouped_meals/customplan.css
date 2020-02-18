@@ -264,6 +264,12 @@
     background-repeat: round;
     background-image: url('../assets/firstbanner.png');
 }
+.firstbannercpnew{
+    height: 440px;
+    background-size: contain;
+    background-repeat: round;
+    background-image: url('../assets/selectfromourplan.png');
+}
 .firsttextcp{
     font-size: 60px;
     line-height: 80px;
@@ -272,6 +278,7 @@
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-left: 48%;
+    padding-right: 4rem;
     padding-top: 7rem;
 }
 .firstheadercp{
@@ -343,7 +350,7 @@
     font-family: 'GothamPro';
     max-width: 172px;
     line-height: 1;
-    width: 172px;
+    width: 100%;
     height: 54px;
 }
 .flexthisdiv{
@@ -397,6 +404,22 @@
     color: #FFFFFF;
     cursor: pointer;
 }
+.plandate{
+    background: #F58633;
+    font-family: 'GothamPro';
+    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-top: .5rem;
+    font-weight: 300;
+    padding-bottom: .5rem;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
 .shift11{
     display: flex;
     justify-content: flex-end;
