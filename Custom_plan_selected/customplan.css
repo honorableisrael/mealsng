@@ -331,6 +331,16 @@
     width: 172px;
     height: 54px;
 }
+.customfoodname{
+    max-height: 61px;
+    padding: 7px 5px;
+    font-weight: 300;
+    font-family: 'GothamPro';
+    max-width: 172px;
+    line-height: 1;
+    width: 172px;
+    height: 39px;
+}
 .flexthisdiv{
     display: flex;
     align-items: flex-start;

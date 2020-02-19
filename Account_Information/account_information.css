@@ -307,6 +307,7 @@
     /* identical to box height, or 212% */
     letter-spacing: 0.01em;
     color: #333333;
+    padding-bottom: 1rem;
 }
 .sh123{
     padding-left: .8rem;
@@ -399,6 +400,7 @@
     line-height: 34px;
     letter-spacing: 0.01em;
     color: #333333;
+    margin-bottom: 1rem;
 }
 .account_info_wrap001 {
     padding: 7rem 0.1rem 7rem 3.5rem;
@@ -408,12 +410,24 @@
     background: #FFFFFF;
     flex: 1 auto;
     text-align: left;
-    margin-right: 3px;
+    margin-right: .8rem;
     box-shadow: 0px 4px 30px #C4C4C4;
     border-radius: 2px;
     margin-bottom: 0.3rem;
     cursor: pointer;
-    max-width: 172px;
+    max-width: 133px;
+    width: 133px;
+}
+.fooditemwrapper0001{
+    background: #FFFFFF;
+    flex: 1 auto;
+    text-align: left;
+    margin-right: .2rem;
+    box-shadow: 0px 4px 30px #C4C4C4;
+    border-radius: 2px;
+    margin-bottom: 0.3rem;
+    cursor: pointer;
+    max-width: 133px;
     width: 133px;
 }
 .foodimgs{
@@ -421,6 +435,8 @@
 }
 .foodname{
     width: 100%;
+    padding-top: 1.1rem;
+    height: 39px;
 }
 .reorderbtn{
     color: white;
@@ -432,6 +448,10 @@
     margin-bottom: .5rem;
 }
 .shftbtm{
+    margin-bottom: 1.3rem;
+    margin-right: 2rem;
+}
+.shftbtm11 {
     margin-bottom: 1.3rem;
 }
 .notificationtext{
@@ -462,7 +482,7 @@
     margin-bottom: 1rem;
 }
 .date111{
-    font-size: 10px;
+    font-size: 11px;
     display: flex;
     font-weight: 400;
     flex-direction: column;
@@ -474,23 +494,18 @@
     color: #333333;
 }
 .date110{
-    font-size: 10px;
+    font-size: 11px;
     display: flex;
     font-weight: 400;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 2rem;
     line-height: 20px;
     /* identical to box height, or 200% */
     letter-spacing: 0.01em;
     color: #333333;
 }
 .straightline{
-    border-bottom: 1px solid #F58633;
-    width: 112px;
-    transform:rotate(90deg);
-    position: relative;
-    right: 9.6rem;
+
 }
 .circle111{
     color: #F58633;
@@ -499,9 +514,7 @@
     left: 1rem;
 }
 .straightlinecircle{
-    display: flex;
-    justify-content: space-between;
-    flex-direction:column;
+
 }
 @media(max-width:980px){
     .straightlinecircle{
@@ -516,4 +529,27 @@
 }
 .ski111{
     padding-bottom: .5rem;
+}
+.shiftlls{
+    /* margin-left: 1rem; */
+}
+.shift101{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 1rem;
+}
+.foodname11{
+    font-size: 11px;
+}
+.flexthisdiv {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-top: 0.6rem;
+}
+.dottedline{
+    height: 95px;
+    margin-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
 }
