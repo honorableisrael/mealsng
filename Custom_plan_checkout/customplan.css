@@ -148,7 +148,7 @@
     font-size: 18px;
     line-height: 19px;
     border: none;
-    padding: 1rem 2rem;
+    padding: 1rem 1.5rem;
 }
 .signin2{
     border-radius: 5px;
@@ -186,6 +186,7 @@
 .planwrapper{
     display: flex;
     justify-content: space-between;
+    font-weight: 600;
 }
 .h1233{
     padding-top: 2rem;
@@ -324,11 +325,10 @@
     letter-spacing: 0.01em;
     color: #333333;
 }
-.firstheadercp1{
-    padding: 1rem 11.5rem;
+.firstheadercp1 {
+    padding: 1rem 5.8rem 1rem 11.5rem;
     font-family: Gotham;
     line-height: 34px;
-    /* identical to box height, or 142% */
     letter-spacing: 0.01em;
     color: #333333;
 }
