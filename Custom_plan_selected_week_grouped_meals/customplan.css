@@ -329,11 +329,7 @@
     cursor: pointer;
     max-width: 172px;
 }
-.activeSelection{
-    border: 1px solid #F58633;
-    box-sizing: border-box;
-    box-shadow: 0px 4px 30px #FF9801;
-}
+
 .P0{
     padding-right: 0px;
 }
@@ -424,4 +420,9 @@
     display: flex;
     justify-content: flex-end;
     padding-bottom: 1rem;
+}
+.activeSelection{
+    border: 1px solid #F58633;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 30px #FF9801;
 }
