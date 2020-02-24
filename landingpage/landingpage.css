@@ -731,3 +731,26 @@ hr {
     padding: 1rem;
     color: #F58633;
 }
+@media(max-width:400px){
+    .officelogo1{
+        width: 88%;
+    }
+    .firstsectionlogin{
+        padding-bottom: 3rem;
+    }
+    .returnToSelection{
+        position: initial;
+    }
+}
+@media(max-width:440px){
+    .returnToSelection{
+        position: initial;
+        left: 1rem;
+    }
+    .firstsectionlogin {
+        padding-bottom: 11rem;
+    }
+}
+.fooditemwrapper {
+   max-width: 173px;
+}

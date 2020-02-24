@@ -145,3 +145,11 @@
     letter-spacing: 0.01em;
     color: #57565C;
 }
+@media(max-width:440px){
+    .returnToSelection{
+        position: initial;
+    }
+    .firstsectionlogin {
+        padding-bottom: 11rem;
+    }
+}

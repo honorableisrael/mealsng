@@ -256,3 +256,8 @@
     width: 92px;
     margin-bottom: 2px;
 }
+@media (max-width: 440px){
+    .firstsectionlogin {
+        padding-bottom: 0rem;
+    }
+}

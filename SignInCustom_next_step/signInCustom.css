@@ -274,3 +274,11 @@
     width: 92px;
     margin-bottom: .5rem;
 }
+@media (max-width: 440px){
+    .firstsectionlogin {
+        padding-bottom: 0rem;
+    }
+    .firstheadercp1 {
+        padding: 2rem 10rem;
+    }
+}

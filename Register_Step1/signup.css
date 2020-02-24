@@ -91,3 +91,11 @@
 .boldtext{
     font-weight: 600;
 }
+@media(max-width:440px){
+    .returnToSelection{
+        position: initial;
+    }
+    .firstsectionlogin {
+        padding-bottom: 11rem;
+    }
+}

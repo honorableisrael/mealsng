@@ -376,3 +376,41 @@
 .nb111{
     font-family:'GothamPro'
 }
+
+
+@media(max-width:440px){
+    .firstsectionlogin {
+        padding-bottom: 1rem;
+    }
+    
+    .firsttextcp{
+        margin-left: 1px
+    }
+    .firsthead111 {
+        padding: 1rem;
+   }
+   .firsthead112 {
+   padding: 1rem;
+   }
+   .firstheadercp1 {
+       padding: 1rem;
+   }
+   .firsttextcp{
+       margin-left: 1px
+   }
+   .firstheadercp {
+       padding: 3rem 2rem;
+   }
+   .firstheadercp1 {
+       padding: 2rem 2rem;
+   }
+   .mrgn {
+       display: none;
+   }
+   .fooditemwrapper {
+       max-width: 174px;
+   }
+   .sidetext-cp{
+       display: none;
+   }
+}
